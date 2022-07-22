@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All_Test_Suite">
+
+    <listeners>
+        <listener class-name="com.qa.listener.AllureReportListenerNG" />
+    </listeners>
+
+
+    <test name="Assignment_Basics_1">
+        <classes>
+            <class name="com.qa.testcases.LoginPageTest"></class>
+            <class name="com.qa.testcases.HomePageTest"></class>
+        </classes>
+    </test>
+</suite>
